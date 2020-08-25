@@ -1,0 +1,169 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Навигация */
+
+.site-nav .link {
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/* Контакты */
+
+.auth-nav .contacts {
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.auth-nav .contacts:hover,
+.auth-nav .contacts:focus {
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/* Кнопка  */
+
+.button {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+}
+
+/* Преимущества команды */
+
+.section .title {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.section .text {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Примеры работ */
+
+.work .title {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+/* Команда */
+
+.team .title {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.team .name {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.team .jobs {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* Footer */
+
+.addresses {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-white-color);
+}
+
+.site-foot .link {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+/* Список работ - кнопка */
+
+.button-list {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.button-list:hover,
+.button-list:focus {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  background: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Примеры всех работ  */
+
+.all .tittle {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.all .category {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--primary-text-color);
+}
