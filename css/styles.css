@@ -15,6 +15,7 @@ html {
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --background-color: #2f303a;
 }
 
 body {
@@ -27,13 +28,46 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flexbox {
+  display: flex;
 }
 
 /* Навигация */
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
-.container {
-  display: inline;
+.page-header .flexbox {
+  justify-content: flex-end;
+  align-items: center;
+}
+.navigation {
   display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo {
+  margin-right: 90px;
 }
 
 .site-nav {
@@ -67,6 +101,10 @@ ul {
   display: flex;
 }
 
+.auth-nav .link-phone:not(:last-child) {
+  margin-right: 50px;
+}
+
 .auth-nav .contacts {
   font-weight: 500px;
   font-size: 14px;
@@ -84,21 +122,52 @@ ul {
   color: var(--accent-color);
 }
 
-/* Кнопка  */
+/* Hero */
+
+.hero {
+  text-align: center;
+  background-color: var(--background-color);
+}
+
+.hero .title {
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+}
 
 .button {
+  margin-bottom: 200px;
+  padding: 10px 32px;
+  border: solid var(--accent-color);
+  border-radius: 4px;
   color: var(--primary-white-color);
   background: var(--accent-color);
 }
 
 /* Преимущества команды */
 
+.holder {
+  display: flex;
+}
+
+.section .title:not(:last-child) {
+  margin-right: 30px;
+}
+
 .section .title {
+  margin-bottom: 10px;
+
   font-weight: 700px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
+}
+
+.section .text:not(:last-child) {
+  margin-right: 30px;
 }
 
 .section .text {
@@ -143,6 +212,10 @@ ul {
 }
 
 /* Footer */
+
+.footer {
+  background-color: var(--background-color);
+}
 
 .addresses {
   font-weight: 400px;
