@@ -43,7 +43,7 @@
               info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="link-phone"> 
             <a href="tel:+380961111111" class="contacts">
               <!-- <img src="./images/phone.svg" alt="" /> -->
               +38 096 111 11 11
@@ -57,6 +57,7 @@
 
     <main>
       <section class="hero">
+        <div class="hero-container">
         <div class="btn">
           <h1 class="title">
             Эффективные решения <br />
@@ -64,14 +65,16 @@
           </h1>
           <button type="button" class="button">Заказать услугу</button>
         </div>
+        </div>
       </section>
 
       <!-- Преимущества команды-->
 
-      <section class="section">
+      <section class="section ident">
         <div class="container">
+          <div class="about-us-container">
           <div class="holder">
-          <ul>
+          <ul class="item">
             <li>
               <h3 class="title">Внимание к деталям</h3>
               <p class="text">
@@ -81,8 +84,8 @@
             </li>
           </ul>
 
-          <ul>
-            <li>
+          <ul class="item">
+            <li >
               <h3 class="title">Пунктуальность</h3>
               <p class="text">
                 Задача организации, в особенности же рамки и место обучения
@@ -91,7 +94,7 @@
             </li>
           </ul>
 
-          <ul>
+          <ul class="item">
             <li>
               <h3 class="title">Планирование</h3>
               <p class="text">
@@ -101,7 +104,7 @@
             </li>
           </ul>
 
-          <ul>
+          <ul class="item">
             <li>
               <h3 class="title">Современные технологии</h3>
               <p class="text">
@@ -115,11 +118,11 @@
 
       <!-- Примеры работ-->
 
-      <section class="work">
+      <section class="work ident">
         <div class="container">
           <h2 class="title">Чем мы занимаемся</h2>
           <div class="holder">
-          <ul>
+          <ul  class="benefits">
             <li>
               <a href="">
                 <img src="./images/desktop.jpg" alt="Рабочий стол" />
@@ -127,7 +130,7 @@
             </li>
           </ul>
 
-          <ul>
+          <ul class="benefits">
             <li>
               <a href="">
                 <img src="./images/mobile.jpg" alt="Смартфон" />
@@ -135,7 +138,7 @@
             </li>
           </ul>
 
-          <ul>
+          <ul class="benefits">
             <li>
               <a href="">
                 <img src="./images/design.jpg" alt="Дизайн" />
@@ -144,37 +147,54 @@
           </ul>
         </div>
         </div>
+        </div>
       </section>
 
       <!-- Команда -->
 
-      <section class="team">
+      <section class="team ident">
         <div class="container">
+          <div class="team-container">
           <h2 class="title">Наша команда</h2>
           <div class="holder">
           <!-- Игорь Демьяненко -->
-
-          <img src="./images/demyanenko.jpg" width="270" alt="фото Игорь Демьяненко" />
-          <h3 class="name">Игорь Демьяненко</h3>
-          <p class="jobs">Product Designer</p>
+         <ul class="person"> 
+            <li>
+            <img src="./images/demyanenko.jpg" width="270" alt="фото Игорь Демьяненко" />
+            <h3 class="name">Игорь Демьяненко</h3>
+            <p class="jobs">Product Designer</p>
+           </li>
+          </ul>
 
           <!-- Ольга Репина -->
-
+        <ul class="person">
+          <li>
           <img src="./images/repina.jpg"  width="270" alt="фото Ольга Репина" />
           <h3 class="name">Ольга Репина</h3>
           <p class="jobs">Frontend Developer</p>
-          <!-- Николай Тарасов -->
+          </li>
+        </ul>
 
+          <!-- Николай Тарасов -->
+       <ul class="person">
+         <li>
           <img src="./images/tarasov.jpg"  width="270" alt="фото Николай Тарасов" />
           <h3 class="name">Николай Тарасов</h3>
           <p class="jobs">Marketing</p>
+          </li>
+       </ul>
 
           <!-- Михаил Ермаков -->
-
+        
+       <ul class="person">
+         <li>
           <img src="./images/ermakov.jpg"  width="270" alt="фото Михаил Ермаков" />
           <h3 class="name">Михаил Ермаков</h3>
           <p class="jobs">UI Designer</p>
+          </li>
+        </ul>
           </div>
+         </div>
         </div>
       </section>
     </main>
@@ -183,18 +203,18 @@
     <footer class="footer">
       <div class="container">
         <nav>
-          <a href="">
-            <img src="./images/logo.svg" alt="" />
+          <a href="./index.html"  class="logo-footer"> 
+            <img src="./images/logofooter.svg" alt="" />
           </a>
           <address class="addresses">г. Киев, пр-т Леси Украинки, 26</address>
           <ul class="site-foot">
             <li>
-              <a href="mailto:info@devstudio.com" class="link">
-                info@devstudio.com
+              <a href="mailto:info@devstudio.com" class="link"> <p class="mail-style">
+                info@devstudio.com </p>
               </a>
             </li>
             <li>
-              <a href="tel:+380961111111" class="link"> +38 096 111 11 11 </a>
+              <a href="tel:+380961111111" class="link"> <p class="phone-style"> +38 096 111 11 11 </p></a>
             </li>
           </ul>
         </nav>
